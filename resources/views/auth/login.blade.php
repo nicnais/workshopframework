@@ -48,6 +48,13 @@
                 Belum punya akun? Daftar disini
             </a>
         </div>
+
+        <div class="mt-3 text-center">
+            <p class="text-muted">atau</p>
+            <a href="{{ route('google.login') }}" class="btn btn-danger btn-lg w-100">
+                <i class="mdi mdi-google me-2"></i> Login dengan Google
+            </a>
+        </div>
     </form>
 </div>
 @endsection

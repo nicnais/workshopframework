@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,4 +23,30 @@
     </div>
     <script src="{{ asset('vendors/js/vendor.bundle.base.js') }}"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Koleksi Buku - @yield('title')</title>
+    <link rel="stylesheet" href="{{ asset('vendors/mdi/css/materialdesignicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/css/vendor.bundle.base.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto">
+                        @yield('content')
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ asset('vendors/js/vendor.bundle.base.js') }}"></script>
+</body>
+>>>>>>> e62f55e232320fe8079a65118e75da59c9447a2e
 </html>
